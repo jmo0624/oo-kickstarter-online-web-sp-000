@@ -12,4 +12,4 @@ class Backer
     
     @backed_projects << project
     
-    project.add_backer
+    project.add_backer(self) unless 
